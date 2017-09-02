@@ -14,6 +14,11 @@
 		2F4D5F1F1F590A1E004D2D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5F1D1F590A1E004D2D91 /* LaunchScreen.storyboard */; };
 		2F4D5F2A1F590A1E004D2D91 /* Annoyer_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5F291F590A1E004D2D91 /* Annoyer_MobileTests.swift */; };
 		2F4D5F351F590A1E004D2D91 /* Annoyer_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5F341F590A1E004D2D91 /* Annoyer_MobileUITests.swift */; };
+		2FCDB1AD1F5B0ABF003BE4BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCDB1AC1F5B0ABF003BE4BF /* AVFoundation.framework */; };
+		2FCDB1AF1F5B0FC6003BE4BF /* 1000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1AE1F5B0FC6003BE4BF /* 1000hz.wav */; };
+		2FCDB1B11F5B0FCF003BE4BF /* 5000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B01F5B0FCF003BE4BF /* 5000hz.wav */; };
+		2FCDB1B31F5B0FD7003BE4BF /* 10000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B21F5B0FD7003BE4BF /* 10000hz.wav */; };
+		2FCDB1B51F5B0FDF003BE4BF /* 15000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B41F5B0FDF003BE4BF /* 15000hz.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		2F4D5F301F590A1E004D2D91 /* Annoyer MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Annoyer MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4D5F341F590A1E004D2D91 /* Annoyer_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annoyer_MobileUITests.swift; sourceTree = "<group>"; };
 		2F4D5F361F590A1E004D2D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCDB1AC1F5B0ABF003BE4BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2FCDB1AE1F5B0FC6003BE4BF /* 1000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1000hz.wav; sourceTree = "<group>"; };
+		2FCDB1B01F5B0FCF003BE4BF /* 5000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5000hz.wav; sourceTree = "<group>"; };
+		2FCDB1B21F5B0FD7003BE4BF /* 10000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10000hz.wav; sourceTree = "<group>"; };
+		2FCDB1B41F5B0FDF003BE4BF /* 15000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 15000hz.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCDB1AD1F5B0ABF003BE4BF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,7 @@
 				2F4D5F281F590A1E004D2D91 /* Annoyer MobileTests */,
 				2F4D5F331F590A1E004D2D91 /* Annoyer MobileUITests */,
 				2F4D5F121F590A1E004D2D91 /* Products */,
+				2FCDB1AB1F5B0ABF003BE4BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +109,10 @@
 		2F4D5F131F590A1E004D2D91 /* Annoyer Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				2FCDB1AE1F5B0FC6003BE4BF /* 1000hz.wav */,
+				2FCDB1B01F5B0FCF003BE4BF /* 5000hz.wav */,
+				2FCDB1B21F5B0FD7003BE4BF /* 10000hz.wav */,
+				2FCDB1B41F5B0FDF003BE4BF /* 15000hz.wav */,
 				2F4D5F141F590A1E004D2D91 /* AppDelegate.swift */,
 				2F4D5F161F590A1E004D2D91 /* ViewController.swift */,
 				2F4D5F181F590A1E004D2D91 /* Main.storyboard */,
@@ -123,6 +139,14 @@
 				2F4D5F361F590A1E004D2D91 /* Info.plist */,
 			);
 			path = "Annoyer MobileUITests";
+			sourceTree = "<group>";
+		};
+		2FCDB1AB1F5B0ABF003BE4BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FCDB1AC1F5B0ABF003BE4BF /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F4D5F1F1F590A1E004D2D91 /* LaunchScreen.storyboard in Resources */,
+				2FCDB1B11F5B0FCF003BE4BF /* 5000hz.wav in Resources */,
+				2FCDB1B31F5B0FD7003BE4BF /* 10000hz.wav in Resources */,
+				2FCDB1AF1F5B0FC6003BE4BF /* 1000hz.wav in Resources */,
 				2F4D5F1C1F590A1E004D2D91 /* Assets.xcassets in Resources */,
+				2FCDB1B51F5B0FDF003BE4BF /* 15000hz.wav in Resources */,
 				2F4D5F1A1F590A1E004D2D91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +544,7 @@
 				2F4D5F3B1F590A1E004D2D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F4D5F3C1F590A1E004D2D91 /* Build configuration list for PBXNativeTarget "Annoyer MobileTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +553,7 @@
 				2F4D5F3E1F590A1E004D2D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F4D5F3F1F590A1E004D2D91 /* Build configuration list for PBXNativeTarget "Annoyer MobileUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +562,7 @@
 				2F4D5F411F590A1E004D2D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
