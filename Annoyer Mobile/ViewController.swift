@@ -11,6 +11,11 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
+    
+    let alertTitle = NSLocalizedString("Welcome", comment: "")
+    
+    
+    
     @IBOutlet weak var toneSelector: UISegmentedControl!
     @IBOutlet weak var voiceSelector: UISegmentedControl!
     @IBOutlet weak var ttsField: UITextField!
@@ -65,6 +70,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //Looks for single or multiple taps.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
+        
+        //Uncomment the line below if you want the tap not not interfere and cancel other interactions.
+        //tap.cancelsTouchesInView = false
+        
+        view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
     }
 
     override func didReceiveMemoryWarning() {

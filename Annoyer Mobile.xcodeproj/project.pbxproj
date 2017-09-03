@@ -19,6 +19,7 @@
 		2FCDB1B11F5B0FCF003BE4BF /* 5000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B01F5B0FCF003BE4BF /* 5000hz.wav */; };
 		2FCDB1B31F5B0FD7003BE4BF /* 10000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B21F5B0FD7003BE4BF /* 10000hz.wav */; };
 		2FCDB1B51F5B0FDF003BE4BF /* 15000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B41F5B0FDF003BE4BF /* 15000hz.wav */; };
+		2FCDB1BA1F5B7DBD003BE4BF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B81F5B7DBD003BE4BF /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,9 @@
 		2FCDB1B01F5B0FCF003BE4BF /* 5000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5000hz.wav; sourceTree = "<group>"; };
 		2FCDB1B21F5B0FD7003BE4BF /* 10000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10000hz.wav; sourceTree = "<group>"; };
 		2FCDB1B41F5B0FDF003BE4BF /* 15000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 15000hz.wav; sourceTree = "<group>"; };
+		2FCDB1B61F5B7D8B003BE4BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		2FCDB1B71F5B7D8B003BE4BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2FCDB1B91F5B7DBD003BE4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "Annoyer Mobile/Base.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		2F4D5F081F590A1E004D2D91 = {
 			isa = PBXGroup;
 			children = (
+				2FCDB1B81F5B7DBD003BE4BF /* Localizable.strings */,
 				2F4D5F131F590A1E004D2D91 /* Annoyer Mobile */,
 				2F4D5F281F590A1E004D2D91 /* Annoyer MobileTests */,
 				2F4D5F331F590A1E004D2D91 /* Annoyer MobileUITests */,
@@ -263,6 +268,7 @@
 				2FCDB1B11F5B0FCF003BE4BF /* 5000hz.wav in Resources */,
 				2FCDB1B31F5B0FD7003BE4BF /* 10000hz.wav in Resources */,
 				2FCDB1AF1F5B0FC6003BE4BF /* 1000hz.wav in Resources */,
+				2FCDB1BA1F5B7DBD003BE4BF /* Localizable.strings in Resources */,
 				2F4D5F1C1F590A1E004D2D91 /* Assets.xcassets in Resources */,
 				2FCDB1B51F5B0FDF003BE4BF /* 15000hz.wav in Resources */,
 				2F4D5F1A1F590A1E004D2D91 /* Main.storyboard in Resources */,
@@ -331,6 +337,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2F4D5F191F590A1E004D2D91 /* Base */,
+				2FCDB1B61F5B7D8B003BE4BF /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -339,8 +346,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				2F4D5F1E1F590A1E004D2D91 /* Base */,
+				2FCDB1B71F5B7D8B003BE4BF /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2FCDB1B81F5B7DBD003BE4BF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FCDB1B91F5B7DBD003BE4BF /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -350,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -401,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

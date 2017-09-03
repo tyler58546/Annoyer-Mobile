@@ -1,0 +1,48 @@
+
+/* Class = "UISegmentedControl"; 8rQ-zO-XqU.segmentTitles[0] = "Daniel"; ObjectID = "8rQ-zO-XqU"; */
+"8rQ-zO-XqU.segmentTitles[0]" = "Daniel";
+
+/* Class = "UISegmentedControl"; 8rQ-zO-XqU.segmentTitles[1] = "Moira"; ObjectID = "8rQ-zO-XqU"; */
+"8rQ-zO-XqU.segmentTitles[1]" = "Moira";
+
+/* Class = "UISegmentedControl"; 8rQ-zO-XqU.segmentTitles[2] = "Samantha"; ObjectID = "8rQ-zO-XqU"; */
+"8rQ-zO-XqU.segmentTitles[2]" = "Samantha";
+
+/* Class = "UISegmentedControl"; 8rQ-zO-XqU.segmentTitles[3] = "Tessa"; ObjectID = "8rQ-zO-XqU"; */
+"8rQ-zO-XqU.segmentTitles[3]" = "Tessa";
+
+/* Class = "UISegmentedControl"; Clb-nD-bCK.segmentTitles[0] = "1000hz"; ObjectID = "Clb-nD-bCK"; */
+"Clb-nD-bCK.segmentTitles[0]" = "1khz";
+
+/* Class = "UISegmentedControl"; Clb-nD-bCK.segmentTitles[1] = "5000hz"; ObjectID = "Clb-nD-bCK"; */
+"Clb-nD-bCK.segmentTitles[1]" = "5khz";
+
+/* Class = "UISegmentedControl"; Clb-nD-bCK.segmentTitles[2] = "10000hz"; ObjectID = "Clb-nD-bCK"; */
+"Clb-nD-bCK.segmentTitles[2]" = "10khz";
+
+/* Class = "UISegmentedControl"; Clb-nD-bCK.segmentTitles[3] = "15000hz"; ObjectID = "Clb-nD-bCK"; */
+"Clb-nD-bCK.segmentTitles[3]" = "15khz";
+
+/* Class = "UISegmentedControl"; Clb-nD-bCK.segmentTitles[4] = "Disarm"; ObjectID = "Clb-nD-bCK"; */
+"Clb-nD-bCK.segmentTitles[4]" = "Desarmar";
+
+/* Class = "UILabel"; text = "Text to Speech"; ObjectID = "Cze-BD-yyJ"; */
+"Cze-BD-yyJ.text" = "Texto a voz";
+
+/* Class = "UITextField"; placeholder = "Text to speech..."; ObjectID = "Im9-du-VjB"; */
+"Im9-du-VjB.placeholder" = "Texto a voz...";
+
+/* Class = "UILabel"; text = "Mobile v0.1.1"; ObjectID = "UoP-E1-cuy"; */
+"UoP-E1-cuy.text" = "Móvil";
+
+/* Class = "UIButton"; normalTitle = "Say It!"; ObjectID = "bsk-hK-j8M"; */
+"bsk-hK-j8M.normalTitle" = "¡Dilo!";
+
+/* Class = "UILabel"; text = "Tone Generator"; ObjectID = "dIK-fp-5bK"; */
+"dIK-fp-5bK.text" = "Generador de tonos";
+
+/* Class = "UIButton"; normalTitle = "Play Tone"; ObjectID = "fO1-YF-4mp"; */
+"fO1-YF-4mp.normalTitle" = "Toca el tono";
+
+/* Class = "UILabel"; text = "Annoyer"; ObjectID = "pTJ-Xa-qgr"; */
+"pTJ-Xa-qgr.text" = "Annoyer";
