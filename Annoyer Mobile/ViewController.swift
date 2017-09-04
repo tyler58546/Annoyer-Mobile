@@ -10,7 +10,10 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
+    
+    
 
+    @IBOutlet weak var scrollView: UIScrollView!
     
     let alertTitle = NSLocalizedString("Welcome", comment: "")
     
@@ -27,7 +30,7 @@ class ViewController: UIViewController {
         let voiceid = voiceSelector.selectedSegmentIndex
         var voicelang = "en-US"
         
-        
+        dismissKeyboard()
         
         if (voiceid == 0) {voicelang = "en-GB"}
         if (voiceid == 1) {voicelang = "en-IE"}
@@ -70,6 +73,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //scrollView.contentSize = CGSizeMake(self.view.frame.width, self.view.frame.height+100)
+        
+        let utterance = AVSpeechUtterance(string: "Welcome to Annoyer!")
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
+        
+        let synthesizer = AVSpeechSynthesizer()
+        synthesizer.speak(utterance)
+        
         //Looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
         

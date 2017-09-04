@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F4B21401F5DB9F20093D961 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCDB1AC1F5B0ABF003BE4BF /* AVFoundation.framework */; };
+		2F4B21421F5DC69D0093D961 /* baby-cry.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F4B21411F5DC69D0093D961 /* baby-cry.mp3 */; };
+		2F4B21441F5DC8D80093D961 /* fork-glass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F4B21431F5DC8D80093D961 /* fork-glass.mp3 */; };
+		2F4B21461F5DCBCB0093D961 /* goat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F4B21451F5DCBCB0093D961 /* goat.mp3 */; };
 		2F4D5F151F590A1E004D2D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5F141F590A1E004D2D91 /* AppDelegate.swift */; };
 		2F4D5F171F590A1E004D2D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5F161F590A1E004D2D91 /* ViewController.swift */; };
 		2F4D5F1A1F590A1E004D2D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5F181F590A1E004D2D91 /* Main.storyboard */; };
@@ -14,12 +18,22 @@
 		2F4D5F1F1F590A1E004D2D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4D5F1D1F590A1E004D2D91 /* LaunchScreen.storyboard */; };
 		2F4D5F2A1F590A1E004D2D91 /* Annoyer_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5F291F590A1E004D2D91 /* Annoyer_MobileTests.swift */; };
 		2F4D5F351F590A1E004D2D91 /* Annoyer_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4D5F341F590A1E004D2D91 /* Annoyer_MobileUITests.swift */; };
-		2FCDB1AD1F5B0ABF003BE4BF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCDB1AC1F5B0ABF003BE4BF /* AVFoundation.framework */; };
+		2F50033D1F5C5809002104BA /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F50033C1F5C5808002104BA /* ViewController2.swift */; };
+		2F50033F1F5C5F42002104BA /* alarm-clock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F50033E1F5C5F42002104BA /* alarm-clock.mp3 */; };
+		2F5003411F5C6171002104BA /* nails-chalkboard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F5003401F5C6171002104BA /* nails-chalkboard.mp3 */; };
+		2F5003431F5C62BA002104BA /* ebs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F5003421F5C62BA002104BA /* ebs.mp3 */; };
+		2F5003451F5C6673002104BA /* car-alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F5003441F5C6673002104BA /* car-alarm.mp3 */; };
+		2F5003471F5C6D7A002104BA /* dog-bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F5003461F5C6D7A002104BA /* dog-bark.mp3 */; };
+		2F5003491F5C7079002104BA /* siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F5003481F5C7079002104BA /* siren.mp3 */; };
+		2F50034B1F5C7254002104BA /* birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F50034A1F5C7254002104BA /* birds.mp3 */; };
+		2F50034D1F5CBB96002104BA /* wtf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F50034C1F5CBB96002104BA /* wtf.mp3 */; };
+		2F50034F1F5CF722002104BA /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F50034E1F5CF722002104BA /* ViewController3.swift */; };
 		2FCDB1AF1F5B0FC6003BE4BF /* 1000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1AE1F5B0FC6003BE4BF /* 1000hz.wav */; };
 		2FCDB1B11F5B0FCF003BE4BF /* 5000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B01F5B0FCF003BE4BF /* 5000hz.wav */; };
 		2FCDB1B31F5B0FD7003BE4BF /* 10000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B21F5B0FD7003BE4BF /* 10000hz.wav */; };
 		2FCDB1B51F5B0FDF003BE4BF /* 15000hz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B41F5B0FDF003BE4BF /* 15000hz.wav */; };
 		2FCDB1BA1F5B7DBD003BE4BF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FCDB1B81F5B7DBD003BE4BF /* Localizable.strings */; };
+		2FCDB1BC1F5BAEB2003BE4BF /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCDB1BB1F5BAEB2003BE4BF /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F4B21411F5DC69D0093D961 /* baby-cry.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "baby-cry.mp3"; sourceTree = "<group>"; };
+		2F4B21431F5DC8D80093D961 /* fork-glass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fork-glass.mp3"; sourceTree = "<group>"; };
+		2F4B21451F5DCBCB0093D961 /* goat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goat.mp3; sourceTree = "<group>"; };
 		2F4D5F111F590A1E004D2D91 /* Annoyer Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Annoyer Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4D5F141F590A1E004D2D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F4D5F161F590A1E004D2D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +70,16 @@
 		2F4D5F301F590A1E004D2D91 /* Annoyer MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Annoyer MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4D5F341F590A1E004D2D91 /* Annoyer_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annoyer_MobileUITests.swift; sourceTree = "<group>"; };
 		2F4D5F361F590A1E004D2D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F50033C1F5C5808002104BA /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		2F50033E1F5C5F42002104BA /* alarm-clock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "alarm-clock.mp3"; sourceTree = "<group>"; };
+		2F5003401F5C6171002104BA /* nails-chalkboard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nails-chalkboard.mp3"; sourceTree = "<group>"; };
+		2F5003421F5C62BA002104BA /* ebs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ebs.mp3; sourceTree = "<group>"; };
+		2F5003441F5C6673002104BA /* car-alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "car-alarm.mp3"; sourceTree = "<group>"; };
+		2F5003461F5C6D7A002104BA /* dog-bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dog-bark.mp3"; sourceTree = "<group>"; };
+		2F5003481F5C7079002104BA /* siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = siren.mp3; sourceTree = "<group>"; };
+		2F50034A1F5C7254002104BA /* birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = birds.mp3; sourceTree = "<group>"; };
+		2F50034C1F5CBB96002104BA /* wtf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wtf.mp3; sourceTree = "<group>"; };
+		2F50034E1F5CF722002104BA /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController3.swift; path = ../ViewController3.swift; sourceTree = "<group>"; };
 		2FCDB1AC1F5B0ABF003BE4BF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2FCDB1AE1F5B0FC6003BE4BF /* 1000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1000hz.wav; sourceTree = "<group>"; };
 		2FCDB1B01F5B0FCF003BE4BF /* 5000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5000hz.wav; sourceTree = "<group>"; };
@@ -61,6 +88,7 @@
 		2FCDB1B61F5B7D8B003BE4BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		2FCDB1B71F5B7D8B003BE4BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2FCDB1B91F5B7DBD003BE4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "Annoyer Mobile/Base.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2FCDB1BB1F5BAEB2003BE4BF /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FCDB1AD1F5B0ABF003BE4BF /* AVFoundation.framework in Frameworks */,
+				2F4B21401F5DB9F20093D961 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,13 +142,27 @@
 		2F4D5F131F590A1E004D2D91 /* Annoyer Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				2F4B21451F5DCBCB0093D961 /* goat.mp3 */,
+				2F4B21431F5DC8D80093D961 /* fork-glass.mp3 */,
+				2F4B21411F5DC69D0093D961 /* baby-cry.mp3 */,
+				2F50034C1F5CBB96002104BA /* wtf.mp3 */,
+				2F50034A1F5C7254002104BA /* birds.mp3 */,
+				2F5003481F5C7079002104BA /* siren.mp3 */,
+				2F5003461F5C6D7A002104BA /* dog-bark.mp3 */,
+				2F5003441F5C6673002104BA /* car-alarm.mp3 */,
+				2F5003421F5C62BA002104BA /* ebs.mp3 */,
+				2F50033E1F5C5F42002104BA /* alarm-clock.mp3 */,
+				2F5003401F5C6171002104BA /* nails-chalkboard.mp3 */,
 				2FCDB1AE1F5B0FC6003BE4BF /* 1000hz.wav */,
 				2FCDB1B01F5B0FCF003BE4BF /* 5000hz.wav */,
 				2FCDB1B21F5B0FD7003BE4BF /* 10000hz.wav */,
 				2FCDB1B41F5B0FDF003BE4BF /* 15000hz.wav */,
 				2F4D5F141F590A1E004D2D91 /* AppDelegate.swift */,
 				2F4D5F161F590A1E004D2D91 /* ViewController.swift */,
+				2F50033C1F5C5808002104BA /* ViewController2.swift */,
+				2F50034E1F5CF722002104BA /* ViewController3.swift */,
 				2F4D5F181F590A1E004D2D91 /* Main.storyboard */,
+				2FCDB1BB1F5BAEB2003BE4BF /* MyCollectionViewCell.swift */,
 				2F4D5F1B1F590A1E004D2D91 /* Assets.xcassets */,
 				2F4D5F1D1F590A1E004D2D91 /* LaunchScreen.storyboard */,
 				2F4D5F201F590A1E004D2D91 /* Info.plist */,
@@ -264,14 +306,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5003491F5C7079002104BA /* siren.mp3 in Resources */,
 				2F4D5F1F1F590A1E004D2D91 /* LaunchScreen.storyboard in Resources */,
 				2FCDB1B11F5B0FCF003BE4BF /* 5000hz.wav in Resources */,
 				2FCDB1B31F5B0FD7003BE4BF /* 10000hz.wav in Resources */,
+				2F5003451F5C6673002104BA /* car-alarm.mp3 in Resources */,
 				2FCDB1AF1F5B0FC6003BE4BF /* 1000hz.wav in Resources */,
+				2F50034D1F5CBB96002104BA /* wtf.mp3 in Resources */,
+				2F5003471F5C6D7A002104BA /* dog-bark.mp3 in Resources */,
+				2F4B21421F5DC69D0093D961 /* baby-cry.mp3 in Resources */,
 				2FCDB1BA1F5B7DBD003BE4BF /* Localizable.strings in Resources */,
+				2F50034B1F5C7254002104BA /* birds.mp3 in Resources */,
 				2F4D5F1C1F590A1E004D2D91 /* Assets.xcassets in Resources */,
+				2F5003431F5C62BA002104BA /* ebs.mp3 in Resources */,
+				2F4B21441F5DC8D80093D961 /* fork-glass.mp3 in Resources */,
 				2FCDB1B51F5B0FDF003BE4BF /* 15000hz.wav in Resources */,
+				2F50033F1F5C5F42002104BA /* alarm-clock.mp3 in Resources */,
 				2F4D5F1A1F590A1E004D2D91 /* Main.storyboard in Resources */,
+				2F4B21461F5DCBCB0093D961 /* goat.mp3 in Resources */,
+				2F5003411F5C6171002104BA /* nails-chalkboard.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,8 +349,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F50034F1F5CF722002104BA /* ViewController3.swift in Sources */,
 				2F4D5F171F590A1E004D2D91 /* ViewController.swift in Sources */,
+				2F50033D1F5C5809002104BA /* ViewController2.swift in Sources */,
 				2F4D5F151F590A1E004D2D91 /* AppDelegate.swift in Sources */,
+				2FCDB1BC1F5BAEB2003BE4BF /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,11 +519,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J8D46U62W6;
 				INFOPLIST_FILE = "Annoyer Mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tyler58546.Annoyer-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -476,11 +534,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J8D46U62W6;
 				INFOPLIST_FILE = "Annoyer Mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tyler58546.Annoyer-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
