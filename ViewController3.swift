@@ -29,10 +29,20 @@ class ViewController3: UIViewController {
     @IBOutlet weak var h2: UIButton!
     @IBOutlet weak var h3: UIButton!
     
+    var lightOn = false
+    
     
     @IBAction func flashToggle(_ sender: Any) {
         toggleFlash(brightness: brightSlider.value)
     }
+    
+    @IBAction func sliderMoved(_ sender: Any) {
+        if (lightOn) {
+            toggleFlash(brightness: brightSlider.value)
+            toggleFlash(brightness: brightSlider.value)
+        }
+    }
+    
     
     @IBAction func vibrate(_ sender: Any) {
         AudioServicesPlayAlertSound(kSystemSoundID_Vibrate)
@@ -58,9 +68,11 @@ class ViewController3: UIViewController {
                 try device?.lockForConfiguration()
                 if (device?.torchMode == AVCaptureTorchMode.on) {
                     device?.torchMode = AVCaptureTorchMode.off
+                    lightOn = false
                 } else {
                     do {
                         try device?.setTorchModeOnWithLevel(brightness)
+                        lightOn = true
                     } catch {
                         print(error)
                     }

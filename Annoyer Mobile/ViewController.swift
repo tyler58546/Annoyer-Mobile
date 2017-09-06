@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var toneSelector: UISegmentedControl!
     @IBOutlet weak var voiceSelector: UISegmentedControl!
     @IBOutlet weak var ttsField: UITextField!
+    @IBOutlet weak var theScrollView: UIScrollView!
     
     var tonePlayer: AVAudioPlayer!
     
@@ -73,7 +74,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //scrollView.contentSize = CGSizeMake(self.view.frame.width, self.view.frame.height+100)
+        theScrollView.contentSize = CGSize(width: self.view.frame.width, height: self.view.frame.height+100)
+        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.keyboardWillShow(sender:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.keyboardWillHide(sender:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
         
         let utterance = AVSpeechUtterance(string: "Welcome to Annoyer!")
         utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
@@ -88,6 +92,14 @@ class ViewController: UIViewController {
         //tap.cancelsTouchesInView = false
         
         view.addGestureRecognizer(tap)
+    }
+    
+    func keyboardWillShow(sender: NSNotification) {
+        self.view.frame.origin.y = -150 // Move view 150 points upward
+    }
+    
+    func keyboardWillHide(sender: NSNotification) {
+        self.view.frame.origin.y = 0 // Move view to original position
     }
     
     func dismissKeyboard() {

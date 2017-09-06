@@ -85,8 +85,6 @@
 		2FCDB1B01F5B0FCF003BE4BF /* 5000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5000hz.wav; sourceTree = "<group>"; };
 		2FCDB1B21F5B0FD7003BE4BF /* 10000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10000hz.wav; sourceTree = "<group>"; };
 		2FCDB1B41F5B0FDF003BE4BF /* 15000hz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 15000hz.wav; sourceTree = "<group>"; };
-		2FCDB1B61F5B7D8B003BE4BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
-		2FCDB1B71F5B7D8B003BE4BF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2FCDB1B91F5B7DBD003BE4BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "Annoyer Mobile/Base.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		2FCDB1BB1F5BAEB2003BE4BF /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -393,7 +391,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				2F4D5F191F590A1E004D2D91 /* Base */,
-				2FCDB1B61F5B7D8B003BE4BF /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -402,7 +399,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				2F4D5F1E1F590A1E004D2D91 /* Base */,
-				2FCDB1B71F5B7D8B003BE4BF /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
