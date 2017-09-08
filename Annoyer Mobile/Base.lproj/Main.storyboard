@@ -37,6 +37,13 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Presets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tua-Hb-2tb">
+                                        <rect key="frame" x="20" y="418" width="85" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO1-YF-4mp">
                                         <rect key="frame" x="20" y="231" width="67" height="30"/>
                                         <state key="normal" title="Play Tone"/>
@@ -90,6 +97,70 @@
                                         <state key="normal" title="Say It!"/>
                                         <connections>
                                             <action selector="sayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PrK-sn-53w"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1T-ni-pSM">
+                                        <rect key="frame" x="20" y="455" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Yes"/>
+                                        <connections>
+                                            <action selector="presetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9QG-WC-deM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVU-w3-mQ5">
+                                        <rect key="frame" x="58" y="455" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="No"/>
+                                        <connections>
+                                            <action selector="presetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mu2-gb-Jdq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8M-Vf-JHg">
+                                        <rect key="frame" x="96" y="455" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Maybe"/>
+                                        <connections>
+                                            <action selector="presetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yUD-Bl-tOU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leV-gd-7OG">
+                                        <rect key="frame" x="150" y="455" width="83" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="I don't know"/>
+                                        <connections>
+                                            <action selector="presetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aGV-Rg-Efz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFx-SX-xRW">
+                                        <rect key="frame" x="20" y="493" width="35" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Hello"/>
+                                        <connections>
+                                            <action selector="presetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VXX-0v-ftj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0D-by-ovy">
+                                        <rect key="frame" x="63" y="493" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Hi"/>
+                                        <connections>
+                                            <action selector="presetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F5c-HA-CaN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uik-dg-KdM">
+                                        <rect key="frame" x="101" y="493" width="62" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Goodbye"/>
+                                        <connections>
+                                            <action selector="presetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ug-tQ-7FM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5c-QQ-5d9">
+                                        <rect key="frame" x="171" y="493" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Bye"/>
+                                        <connections>
+                                            <action selector="presetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofM-Bi-m1f"/>
                                         </connections>
                                     </button>
                                 </subviews>

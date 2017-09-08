@@ -24,12 +24,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var ttsField: UITextField!
     @IBOutlet weak var theScrollView: UIScrollView!
     
+    var voicelang = "en-US"
+    
     var tonePlayer: AVAudioPlayer!
     
     @IBAction func sayButtonPressed(_ sender: Any) {
         
         let voiceid = voiceSelector.selectedSegmentIndex
-        var voicelang = "en-US"
+        
         
         dismissKeyboard()
         
@@ -69,6 +71,19 @@ class ViewController: UIViewController {
             }
         }
 
+    }
+    @IBAction func presetPressed(_ sender: Any) {
+        let utterance = AVSpeechUtterance(string: ((sender as! UIButton).titleLabel?.text)!)
+        let voiceid = voiceSelector.selectedSegmentIndex
+        if (voiceid == 0) {voicelang = "en-GB"}
+        if (voiceid == 1) {voicelang = "en-IE"}
+        if (voiceid == 2) {voicelang = "en-US"}
+        if (voiceid == 3) {voicelang = "en-ZA"}
+        
+        utterance.voice = AVSpeechSynthesisVoice(language: voicelang)
+        
+        let synthesizer = AVSpeechSynthesizer()
+        synthesizer.speak(utterance)
     }
     
     override func viewDidLoad() {
