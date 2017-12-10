@@ -62,16 +62,16 @@ class ViewController3: UIViewController {
     
     
     func toggleFlash(brightness: Float) {
-        let device = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo)
+        let device = AVCaptureDevice.default(for: AVMediaType.video)
         if (device?.hasTorch)! {
             do {
                 try device?.lockForConfiguration()
-                if (device?.torchMode == AVCaptureTorchMode.on) {
-                    device?.torchMode = AVCaptureTorchMode.off
+                if (device?.torchMode == AVCaptureDevice.TorchMode.on) {
+                    device?.torchMode = AVCaptureDevice.TorchMode.off
                     lightOn = false
                 } else {
                     do {
-                        try device?.setTorchModeOnWithLevel(brightness)
+                        try device?.setTorchModeOn(level: brightness)
                         lightOn = true
                     } catch {
                         print(error)
